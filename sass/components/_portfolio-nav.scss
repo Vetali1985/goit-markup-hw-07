@@ -1,0 +1,14 @@
+.nav-head {
+    display: flex;
+    align-items: center;
+}
+
+.portfolio-nav {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    &__item {
+            margin-right: 8px;
+        }
+}
+
