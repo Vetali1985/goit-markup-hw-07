@@ -1,21 +1,22 @@
 
 /* header */
-@import url(./utils/_variabales.scss);
-@import url(../sass/components/_header.scss);
-@import url(../sass/components/_logo-header.scss);
-@import url(../sass/components/_site-nav.scss);
-@import url(../sass/components/_contacts-header.scss);
+@import './utils/variabales';
+@import './components/header';
+@import './components/logo-header';
+@import './components/site-nav';
+@import './components/contacts-header';
 
 /* основной блок */
-@import url(../sass/components/_button.scss);
-@import url(../sass/components/_hero-overlay.scss);
-@import url(../sass/components/_portfolio-nav.scss);
-@import url(../sass/components/_advantage.scss);
-@import url(../sass/components/_comand.scss);
-@import url(../sass/components/_customers.scss);
-@import url(../sass/components/_projects.scss);
-@import url(../sass/components/_footer.scss);
-@import url(../sass/components/_modal.scss);
-@import url(../sass/components/_checkbox.scss);
-
+@import './components/button';
+@import './components/hero-overlay';
+@import './components/hero-overlay';
+@import './components/advantage';
+@import './components/comand';
+@import './components/customers';
+@import './components/projects';
+@import './components/footer';
+@import './components/modal';
+@import './components/checkbox';
+@import './components/direction';
+ 
 

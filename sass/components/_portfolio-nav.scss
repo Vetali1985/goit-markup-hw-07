@@ -7,8 +7,9 @@
     display: flex;
     justify-content: center;
     cursor: pointer;
-    &__item {
-            margin-right: 8px;
-        }
+}
+
+.portfolio-nav__item {
+    margin-right: 8px;
 }
 

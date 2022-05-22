@@ -89,9 +89,7 @@
     margin-right: 0;
 }
 
-.progects__item:nth-last-child(-1 + 3) {
-    margin-bottom: 0;
-}
+
 
 
 .progects__links {
@@ -106,9 +104,17 @@
 
 
 
-.progects__links:nth-last-child(-1 + 3) {
-    margin-bottom: 0;
+.portfolio-nav {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    
+    &__item {
+            margin-right: 8px;
+        }
 }
+
+
 
 
 

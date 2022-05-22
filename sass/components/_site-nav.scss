@@ -13,10 +13,7 @@
         letter-spacing: 0.02em;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-        &--current::after {
-            opacity: 1;
-            visibility: visible;
-        }
+        
 
         &:hover,
         &:focus {
@@ -42,6 +39,10 @@
             visibility: hidden;
         }
     }
+        &__link--current::after {
+            opacity: 1;
+            visibility: visible;
+        }
 }
 
 .site-nav__item:not(:last-child) {

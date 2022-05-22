@@ -1,11 +1,10 @@
-$header-bg-color: #ffffff;
-$border-color: #eeeeee;
 
 .header {
-    background-color:$header-bg-color;
-    border-bottom: 1px solid $border-color;
+    background-color:var(--header-bg-color);
+    border-bottom: 1px solid var(--border-color);
 }
 
-.nav-header {
+.nav-head {
 display: flex;
+align-items: center;
 }
