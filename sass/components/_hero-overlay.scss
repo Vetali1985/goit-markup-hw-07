@@ -6,7 +6,18 @@
     padding-top: 200px;
     padding-bottom: 200px;
     background: rgba(47, 48, 58, 0.4);
-    &__title {
+    max-width: 1600px;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    background-position: center;
+    background-image: linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/bg-image.png);
+
+
+    .hero__title {
             width: 696px;
             margin: 0 auto;
             color: var(--header-bg-color);
@@ -18,15 +29,5 @@
         }
 }
 
-.overlay {
-    max-width: 1600px;
-    height: 600px;
-    margin-right: auto;
-    margin-left: auto;
-    background-position: center;
-    background-image: linear-gradient(to right,
-            rgba(47, 48, 58, 0.4),
-            rgba(47, 48, 58, 0.4)),
-        url(../images/bg-image.png);
-}
+
 

@@ -15,73 +15,8 @@
                     --overlay-progects: rgba(33, 150, 243, 0.9);
                 }
 
-*,
-::after,
-::before {
-    box-sizing: border-box;
-    max-width: 100%;
-    height: auto;
-}
-body {
-    background-color: var(--header-bg-color);
-    color: var(--primary-text-color);
-    font-family: Roboto, sans-serif;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-}
 
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
 
-a {
-    text-decoration: none;
-}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 0;
-    padding: 0;
-}
 
-textarea {
-    resize: none;
-}
 
-.conteiner {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    /* outline: 2px solid tomato; */
-}
-
-.list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    line-height: 1.7;
-}
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
-.centered {
-    text-align: center;
-}
-.title-block {
-    margin-bottom: 50px;
-    color: var(--title-text-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-}

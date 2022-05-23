@@ -2,7 +2,7 @@
     padding-top: 24px;
     padding-bottom: 25px;
 
-    &__web {
+    .logo__web {
         display: inline-block;
         color: var(--accent-text-color);
         font-family: "Raleway";
@@ -12,7 +12,7 @@
         text-decoration: none;
     }
 
-    &__studio {
+    .logo__studio {
         color: var(--logo-text-studio);
         font-family: "Raleway";
         font-weight: 700;

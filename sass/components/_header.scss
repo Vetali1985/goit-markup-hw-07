@@ -5,6 +5,15 @@
 }
 
 .nav-head {
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
+}
+.header__conteiner{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }

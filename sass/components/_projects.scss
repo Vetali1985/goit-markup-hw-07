@@ -9,7 +9,7 @@
     border-right: 1px solid var(--border-color);
     border-bottom: 1px solid var(--border-color);
 
-    &__title {
+    .card-text__title {
         margin-bottom: 4px;
         color: var(--title-text-color);
         font-size: 18px;
@@ -17,7 +17,7 @@
         line-height: 2;
         letter-spacing: 0.06em;
     }
-&__text {
+.card-text__text {
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.875;
@@ -28,7 +28,7 @@
     overflow: hidden;
     position: relative;
 
-    &__text {
+    .absolt__text {
         position: absolute;
         top: 0;
         left: 0;
@@ -109,7 +109,7 @@
     justify-content: center;
     cursor: pointer;
     
-    &__item {
+    .portfolio-nav__item {
             margin-right: 8px;
         }
 }
@@ -118,6 +118,3 @@
 
 
 
-.section-text {
-    line-height: 1.7;
-}
