@@ -5,6 +5,9 @@
 .direction {
     display: flex;
     justify-content: space-between;
+    @media screen and (max-width: 1199px) {
+            display: none;
+        }
     .direction__item {
             position: relative;
             flex-basis: calc((100% - 60px) / 3);
@@ -25,6 +28,11 @@
                     text-align: center;
                     letter-spacing: 0.03em;
                 }
+}
+.section__title--displayNone{@media screen and (max-width: 1199px) {
+        display: none;
+    }
+
 }
 
 
